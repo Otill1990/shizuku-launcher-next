@@ -1385,8 +1385,8 @@ export default function App() {
                   <TableCell>{instanceStates.get(row.state)}</TableCell>
                   <TableCell>{row.ip}</TableCell>
                   <TableCell>{row.type}</TableCell>
-                  <TableCell>{row.launchtime}</TableCell>
                   <TableCell>{row.platform}</TableCell>
+                  <TableCell>{row.launchtime}</TableCell>
                   <TableCell>
                     <Box sx={{ '& button': { m: 1 } }}>
                       {idOfGettingWindowsPassword === row.id || idOfInstanceChangingIp === row.id || idOfInstanceTerminating === row.id ? (<CircularProgress />) : (
